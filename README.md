@@ -441,10 +441,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support and questions:
 
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review the [API Documentation](#api-documentation)
-3. Test with the [Web Interface](#web-interface)
-4. Create an issue in the repository
+1. Create an issue in the repository
 
 ## 📝 Changelog
 
