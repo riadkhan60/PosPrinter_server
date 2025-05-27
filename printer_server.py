@@ -288,7 +288,7 @@ def process_image(base64_data):
             img = background
 
         # Resize image if too large - make logo smaller
-        max_width = 180  # Smaller logo width
+        max_width = 312  # 1.7 times larger than the original 180
         if img.width > max_width:
             ratio = max_width / img.width
             new_height = int(img.height * ratio)
