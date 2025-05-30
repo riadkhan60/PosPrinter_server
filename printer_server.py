@@ -211,7 +211,7 @@ def generate_esc_pos_commands(content, print_type="customer"):
             label = line.get("label", "Sub-total")
             amount = line.get("amount", "")
             try:
-                amount_str = str(int(float(amount))) + "tk"
+                amount_str = "Tk." + str(int(float(amount)))
             except:
                 amount_str = amount
 
